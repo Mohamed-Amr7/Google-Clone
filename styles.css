@@ -1,0 +1,139 @@
+body{
+    font-family: arial,sans-serif;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction:row-reverse;
+}
+.navbar-item{
+    margin: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: unset;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 272px;
+    height: 92px;
+}
+.input{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    width: calc(632px + 6px);
+    width: 561px;
+    max-width: 584px;
+    background: white;
+    border: 1px solid #dfe1e5 ;
+    box-shadow: none;
+    border-radius:24px;
+    margin: 20px;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: 300;
+}
+.btn
+{
+    background-color: #f8f9fa;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+.right{
+    width: 570px;
+}
+
+.left{
+    width: 250px;
+}
+.left p{
+    margin: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 0;
+    font-weight: lighter;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.adv-input{
+    width: 570px;
+    height: 41px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    margin: 10px;
+    padding: 1px 8px;
+}
+#btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 865px;
+}
+#adv-btn{
+    background-color: #4d90fe;
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    border-radius: 4px;
+    color: white;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#title1{
+    color: #d93025;
+    padding: 15px;
+    width: 100%;
+    font-weight: lighter;
+    font-style: normal;
+    border-bottom:1pt solid#e5e6e7;
+}
+
+#title2{
+    color: #242424;
+    margin: 15px;
+    width: 100%;
+    font-weight: lighter;
+    font-style: normal;
+}
